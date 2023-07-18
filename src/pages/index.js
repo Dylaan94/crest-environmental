@@ -1,11 +1,12 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import Layout from "../components/layout/Layout";
+import HoldingPage from "../components/HoldingPage";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <main>
-        <h1>Home Page</h1>
+      <main class="w-full">
+        <HoldingPage />
       </main>
     </Layout>
   );
