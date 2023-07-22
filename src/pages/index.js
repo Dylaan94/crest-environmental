@@ -14,4 +14,11 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => (
+  <>
+    <title>Crest Environmental: Site under maintenance</title>
+    <a href="https://www.vecteezy.com/free-vector/website-maintenance">
+      Website Maintenance Vectors by Vecteezy
+    </a>
+  </>
+);
