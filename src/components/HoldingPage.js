@@ -2,6 +2,7 @@ import React from "react";
 
 // image imports
 import maintenence from "../images/maintenence.png";
+import logo from "../images/logo-transparent-2.png";
 
 export default function HoldingPage() {
   return (
@@ -15,7 +16,7 @@ export default function HoldingPage() {
             Please check back soon.{"\n"}Feel free to{" "}
             <a
               class="font-bold underline hover:cursor-pointer"
-              href="mailto:jonathan@crestenvironmental.co.uk"
+              href="mailto:info@crestenvironmental.co.uk"
             >
               contact us
             </a>{" "}
@@ -24,7 +25,7 @@ export default function HoldingPage() {
           </span>
         </div>
         <div className="holdingPage-image sm:w-2/3 w-full flex items-center justify-end">
-          <img src={maintenence} alt="under maintenance" class="max-h-96" />
+          <img src={logo} alt="Logo" class="max-h-96" />
         </div>
       </div>
     </div>
