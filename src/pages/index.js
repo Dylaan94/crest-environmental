@@ -5,7 +5,7 @@ import HoldingPage from "../components/HoldingPage";
 const IndexPage = () => {
   return (
     <Layout>
-      <main class="w-full">
+      <main className="w-full">
         <HoldingPage />
       </main>
     </Layout>
